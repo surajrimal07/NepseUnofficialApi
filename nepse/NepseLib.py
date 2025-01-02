@@ -41,7 +41,8 @@ class _Nepse:
 
         self.floor_sheet_size = 500
 
-        self.base_url = "https://www.nepalstock.com"
+        #Switched to newer .np domain
+        self.base_url = "https://www.nepalstock.com.np"
 
         self.load_json_api_end_points()
         self.load_json_dummy_data()
